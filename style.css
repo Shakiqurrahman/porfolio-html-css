@@ -18,6 +18,8 @@ body {
     list-style: none;
     outline: none;
 }
+
+/* common css  */
 .btn-primary {
     background-color: var(--main-color);
     color: white;
@@ -32,13 +34,14 @@ body {
     color: white;
 }
 
+
 /* navigation bar / Header styles */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #DBDBDB;
-    padding: 10px 10rem;
+    padding: 10px 8rem;
 }
 
 .header .logo-box {
@@ -78,6 +81,62 @@ body {
 .header nav .navlinks li a{
     color: black;
     font-weight: 500;
+}
+
+/* hero styles  */
+.wrapper {
+    background-image: url('/images/shape1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 6rem 8rem;
+    gap: 80px;
+    background-image: url('/images/shape2.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+.hero .details-box .hero-title {
+    font-size: 52px;
+    margin-bottom: 24px;
+}
+
+.hero .details-box p {
+    font-size: 18px;
+    line-height: 1.55;
+    margin-bottom: 34px;
+}
+
+.hero .details-box .info-box {
+    margin-top: 8rem;
+    display: flex;
+    gap: 10px;
+}
+
+.hero .details-box .info-box .box {
+    background-color: #f6ebfe;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.hero .details-box .info-box .box h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.hero .details-box .info-box .box p {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #697484;
 }
 
 
