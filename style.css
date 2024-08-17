@@ -13,6 +13,7 @@ body {
     scroll-behavior: smooth;
    
 }
+
 * {
     text-decoration: none;
     list-style: none;
@@ -32,6 +33,22 @@ body {
     background-color: var(--main-color);
     opacity: .85;
     color: white;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 12px 24px; 
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-outline i.icon {
+    font-size: 20px;
 }
 
 
@@ -84,6 +101,12 @@ body {
 }
 
 /* hero styles  */
+#main {
+    background-image: url('/images/shape2.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
 .wrapper {
     background-image: url('/images/shape1.png');
     background-repeat: no-repeat;
@@ -94,10 +117,6 @@ body {
     align-items: center;
     padding: 6rem 8rem;
     gap: 80px;
-    background-image: url('/images/shape2.png');
-    background-repeat: no-repeat;
-    background-position: top right;
-    
 }
 
 .hero .details-box .hero-title {
@@ -118,7 +137,7 @@ body {
 }
 
 .hero .details-box .info-box .box {
-    background-color: #f6ebfe;
+    background-color: #f5f5f5;
     padding: 15px;
     border-radius: 5px;
     display: flex;
@@ -139,5 +158,77 @@ body {
     color: #697484;
 }
 
+/* About styles */
+.about-page {
+    padding: 10px 8rem;
+    background-image: url('/images/shape3.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-bottom: 80px;
+}
+.about-box {
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    box-shadow: 0 4px 8px 0 rgba(86, 86, 86, 0.084), 0 6px 20px 0 rgba(0, 0, 0, 0.042);
+    border-radius: 15px;
+    position: relative;
+    top: 80px;
+}
+
+.about-box .img-box {
+    background-color: #F0F1F3;
+    border-radius: 10px;
+}
+
+.about-box .img-card .icon-box {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 12px 60px rgba(28, 25, 25, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: -40px;
+    z-index: 20;
+    border-radius: 5px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.about-box .img-card .icon-box i.fa-brands {
+    font-size: 20px;
+    color: var(--main-color);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.about-box .img-card .icon-box i.fa-brands:hover {
+    background-color: var(--main-color);
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.about-box .content-box .title {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.about-box .content-box p {
+    font-size: 17px;
+    line-height: 1.55;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.about-box .content-box .btn-box {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 32px;
+}
 
 
