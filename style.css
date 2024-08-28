@@ -231,4 +231,97 @@ body {
     margin-top: 32px;
 }
 
+/* work-process  */
+.work-process {
+    background-color: white;
+    padding: 6rem 8rem;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.work-process .content-box {
+    width: 100%;
+}
+
+.work-process .content-box  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.work-process .cards-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.work-process .cards-box .card {
+    background-color: rgba(238, 238, 238, 0.767);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.work-process .cards-box .card .icon,
+.work-process .cards-box .card .icon-diff {
+    background-color: var(--main-color);
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.work-process .cards-box .card .icon-diff {
+    background-color: #DBDBDB;
+    color: var(--main-color);
+}
+
+.work-process .cards-box .card:nth-child(2),
+.work-process .cards-box .card:nth-child(4){
+   position: relative;
+   top: 40px;
+}
+
+/* portfolio page  */
+.portfolio-page {
+    padding: 6rem 8rem;
+}
+
+.portfolio-page .title, .portfolio-page .sub-title {
+    text-align: center;
+}
+
+.portfolio-page .cards {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-page .cards .card {
+    box-shadow: 0.15px 0.15px 40px #1c19191c;
+    border-radius: 20px;
+}
+
+.portfolio-page .cards .card img {
+    width: 100%;
+}
+
+.portfolio-page .cards .card .card-content {
+    padding: 40px 20px;
+}
+
+.portfolio-page .cards .card .card-content .btn-outline {
+    display: inline-block;
+}
+
+.portfolio-page .cards .card .card-content .btn-outline i.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.portfolio-page .center {
+    margin-top: 60px;
+    text-align: center;
+}
 
